@@ -4,6 +4,6 @@ WORKDIR /
 
 COPY . .
 
-RUN go build Athanatos
+RUN go build Kaisu
 
-CMD [ "./Athanatos" ]
+CMD [ "./Kaisu" ]
